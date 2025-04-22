@@ -89,9 +89,9 @@ def assignment_graph(assignments, submissions):
 
 
 def main():
-    students = load_students("students.txt")
-    assignments = load_assignments("assignments.txt")
-    submissions = load_submissions("./submissions")
+    students = load_students("./data/students.txt")
+    assignments = load_assignments("./data/assignments.txt")
+    submissions = load_submissions("./data/submissions")
 
     print("1. Student grade")
     print("2. Assignment statistics")
